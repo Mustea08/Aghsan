@@ -1,0 +1,124 @@
+*{
+    margin: auto;
+    padding: auto;
+    font-family: sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.logo{
+    width: 10em;
+    margin: -20px;
+    padding: 0;
+}
+header{
+    background-color: rgb(145, 243, 145);
+    height: 8em;
+    margin-bottom: 1.5rem;
+}
+nav{
+    background-color: aquamarine;
+    height: 40%;
+    margin: 10px 0 4px 0;
+}
+section{
+    margin: 0 0.4rem;
+    padding-left: auto;
+}
+
+ .order li{
+    margin: 0 10px;
+
+}
+nav li{
+    list-style-type: none;
+}
+section img{
+    width: 20em;
+}
+header nav li  {
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+}
+ul li i{
+    margin: 0 40px;
+}
+.aside img{
+    width: 20em;
+    
+}
+.firstPic{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+nav li a:hover {
+    background: #69d4c2;
+    color:rgb(9, 7, 19);
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px ;
+    border: .5px rgb(57, 179, 27) solid;
+    text-decoration: none;
+}
+.container{
+    width: 50%;
+}
+button#submit{
+    border: 2px green solid;
+    border-radius: 20px;
+    background-color: aquamarine;
+}
+button#cancel{
+    border: 2px red solid;
+    border-radius: 20px;
+    background-color: rgba(255, 0, 0, 0.493);
+}
+/* this is for the computer */
+.computerImage{
+    width: 40%;
+    position: relative;
+    left: 30%;
+}
+.firstDiv{
+    margin: 2px;
+    font-size: 1.2em;
+}
+@media only screen and (min-width: 720px)
+{
+    .firstPic{
+        float: right;
+        width: 25em;
+        margin: 0 0 5px 100px;
+    }
+    h1{
+        text-align: center;
+    }
+
+
+
+
+
+
+    .firstDiv{
+        text-align: center;
+        margin: 0 10px;
+    }
+    .computerImage{
+        position: relative;
+        left: 1px; 
+        width: 80%;
+        height: 25em;
+        margin: 0 2rem;
+    }
+}
+
+
+
+
